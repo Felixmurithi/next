@@ -1,15 +1,15 @@
 import { Article, Section } from "@/app/_components/Page";
 import { csrHydration } from "@/app/_content/nextjs/fundamentals";
-import { nextFramework } from "./_content/nextjs/theframework";
+import { nextFramework } from "./_content/nextjs/framework";
 
 function page() {
   return (
     <Article>
       <Section>
-        <h1>Next JS</h1>
-        {csrHydration}
+        <h1>Next JS--</h1>
+        {/* {csrHydration}
 
-        {nextFramework}
+        {nextFramework} */}
 
         {/* React server componenets are by converting react components into. inspecting page source */}
 
